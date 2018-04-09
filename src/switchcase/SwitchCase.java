@@ -18,6 +18,7 @@ public class SwitchCase {
         System.out.println("*** Menu ***");
         System.out.println("Suma");
         System.out.println("Resta");
+        System.out.println("Multiplicacion");
         System.out.println("Division");        
         System.out.println("Degite su opcion:");
         opcion = captura.next();
@@ -56,6 +57,22 @@ public class SwitchCase {
                 // Impresión
                 System.out.println("Resultado ="+ resultado);
                 
+            break;
+            
+            case "Multiplicacion":
+            // Capturar los datos
+                System.out.println("*** Suma ***");
+                System.out.println("Digite el primer numero:");
+                primerNumero = captura.nextDouble();
+                
+                System.out.println("Digite el segundo numero:");
+                segundoNumero = captura.nextDouble();
+                
+                // Proceso
+                resultado = primerNumero * segundoNumero;
+                
+                // Impresión
+                System.out.println("Resultado ="+ resultado);
             break;
             
             case  "Division":
